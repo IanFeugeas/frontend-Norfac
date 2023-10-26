@@ -1,0 +1,13 @@
+.navbar{
+    background-color: #e29248 !important;
+}
+.imglogo{
+    width: 4rem;
+    border-radius: 50%;
+    border: 1px solid #0c0faf;
+}
+.container-fluid{
+    gap: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
