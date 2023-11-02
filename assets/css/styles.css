@@ -1,5 +1,13 @@
+.header{
+    min-height: 10vh;
+}
+
 .navbar{
     background-color: #e29248 !important;
+    border-bottom: 2px solid black;
+}
+.menu{
+    padding-left: 12rem;
 }
 .imglogo{
     width: 4rem;
@@ -7,7 +15,27 @@
     border: 1px solid #0c0faf;
 }
 .container-fluid{
-    gap: 1000px;
+    gap: 62rem;
     display: flex;
     flex-wrap: wrap;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 70vh;
+}
+.divimg{
+    background-image: url(../images/imgnorfaclocal.png);
+    width: 98%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 1rem;
+}
+.footer{
+    min-height: 20vh;
 }
